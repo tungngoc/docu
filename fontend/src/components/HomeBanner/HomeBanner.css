@@ -1,0 +1,16 @@
+.home_banner {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+}
+.home_banner .banner-img img {
+  width: 100%;
+}
+.slick-prev {
+  left: 2% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 2% !important;
+  z-index: 1;
+}

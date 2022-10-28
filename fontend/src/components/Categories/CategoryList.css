@@ -1,0 +1,35 @@
+section {
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+section .section-title {
+  padding: 0px 0px 12px;
+  text-transform: capitalize;
+  font-weight: bold;
+  line-height: 1.41;
+  font-size: 20px;
+}
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, auto));
+  gap: 24px;
+}
+.box-container .category-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.box-container .category-box .category-name {
+  display: block;
+  font-size: 16px;
+  max-width: 150px;
+  text-transform: capitalize;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: 0.8;
+}
+.box-container .category-box:hover {
+  opacity: 0.5;
+}
