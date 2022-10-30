@@ -33,3 +33,12 @@
   color: blue;
   cursor: pointer;
 }
+@media (max-width: 600px) {
+  .post-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
