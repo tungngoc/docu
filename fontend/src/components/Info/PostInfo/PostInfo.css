@@ -1,0 +1,12 @@
+.post-info {
+  flex: 60;
+  position: relative;
+}
+.post-info .post-img img {
+  width: 606px;
+  height: 255px;
+  object-fit: cover;
+}
+.post-info .post-image-wrapper .slick-slide img {
+  width: calc(100% - 10px) !important;
+}
